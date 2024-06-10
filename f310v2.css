@@ -107,15 +107,15 @@
   position: absolute;
   width: 141px;
   height: 33px;
-  top: 264px;
-  left: 306px;
+  top: 119px;
+  left: 355px;
 }
 
 .xbox .back,
 .xbox .start {
   background: url(https://imgur.com/fjuGXa7.png);
-  width: 33px;
-  height: 33px;
+  width: 74px;
+  height: 59px;
   opacity: 0;
 }
 
@@ -129,8 +129,10 @@
 }
 
 .xbox .start {
-  background-position: 33px 0px;
+  background-position: 74px 0px;
   float: right;
+  top: 89px;
+  left: 10px;
 }
 
 .xbox .abxy {
@@ -144,8 +146,8 @@
 .xbox .button {
   position: absolute;
   background: url(https://imgur.com/1nuLB5I.png);
-  width: 48px;
-  height: 48px;
+  width: 76px;
+  height: 76px;
 }
 
 .xbox .button.pressed {
@@ -161,7 +163,7 @@
 }
 
 .xbox .b {
-  background-position: -49px 0;
+  background-position: -153px 0;
   top: 58px;
   right: 0px;
 }
@@ -184,7 +186,6 @@
   height: 127px;
   top: 304px;
   left: 263px;
-  opacity: 0.4;
 }
 
 .xbox .stick {
