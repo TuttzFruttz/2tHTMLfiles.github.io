@@ -171,7 +171,7 @@
 .xbox .x {
   background-position: -156px 0;
   top: 68px;
-  left: 1px;
+  left: -4px;
 }
 
 .xbox .y {
@@ -233,32 +233,33 @@
 .xbox .face.up {
   background-position: 56px 0;
   left: 52px;
-  top: -15px;
+  top: -14px;
   width: 56px;
   height: 92px;
 }
 
 .xbox .face.down {
-  left: 38px;
-  bottom: 0;
-  width: 34px;
-  height: 56px;
+  background-position: 113px 0;
+  left: 52px;
+  top: 74px;
+  width: 56px;
+  height: 92px;
 }
 
 .xbox .face.left {
-  background-position: 0 -93px;
-  width: 55px;
-  height: 35px;
-  top: 38px;
-  left: 0;
+  background-position: 0 58px;
+  width: 94px;
+  height: 56px;
+  top: 45px;
+  left: -08px;
 }
 
 .xbox .face.right {
-  background-position: 0 -57px;
-  width: 55px;
-  height: 35px;
-  top: 38px;
-  right: 0;
+  background-position: 0 114px;
+  width: 94px;
+  height: 56px;
+  top: 45px;
+  left: 100px;
 }
 
 .xbox.half {
