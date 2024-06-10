@@ -181,19 +181,20 @@
 .xbox .sticks {
   position: absolute;
   width: 328px;
-  height: 166px;
-  top: 239px;
-  left: 164px;
+  height: 127px;
+  top: 304px;
+  left: 263px;
+  opacity: 0.4;
 }
 
 .xbox .stick {
   position: absolute;
   background: url(https://imgur.com/KsmXhGL.png);
   background-position: 166px 0;
-  height: 166px;
+  height: 164px;
   width: 166px;
   left: 268px;
-  top: 310px;
+  top: 280px;
 }
 
 .xbox .stick.pressed {
@@ -206,8 +207,8 @@
 }
 
 .xbox .stick.right {
-  top: 108px;
-  left: 357px;
+  top: -2px;
+  left: 290px;
 }
 
 .xbox .dpad {
