@@ -1,10 +1,8 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
   background: url(https://imgur.com/QMiP2ih.png);
-  height: 630px;
-  width: 750px;
-  /*    margin-left: -375px;
-        margin-top: -285px;*/
+  height: 600px;
+  width: 1000px;
 }
 
 .xbox.white {
@@ -23,12 +21,13 @@
   width: 446px;
   height: 121px;
   position: absolute;
-  left: 152px;
+  left: 182px;
+  top: 0px;
 }
 
 .xbox .trigger {
-  width: 88px;
-  height: 121px;
+  width: 183px;
+  height: 81px;
   background: url(https://imgur.com/Jk3JHjg.png);
   opacity: 0;
 }
@@ -39,23 +38,24 @@
 }
 
 .xbox .trigger.right {
-  float: right;
+  float: left;
+  left: 382px;
   transform: rotateY(180deg);
 }
 
 .xbox .bumper {
   width: 170px;
-  height: 61px;
+  height: 150px;
   background: url(https://imgur.com/1w9qekd.png);
   opacity: 0;
 }
 
 .xbox .bumpers {
   position: absolute;
-  width: 536px;
-  height: 61px;
-  left: 107px;
-  top: 129px;
+  width: 170px;
+  height: 153px;
+  left: 36px;
+  top: 4px;
 }
 
 .xbox .bumper.pressed {
@@ -70,6 +70,7 @@
   float: right;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+  left: 300px;
 }
 
 .xbox .quadrant {
@@ -179,18 +180,20 @@
 
 .xbox .sticks {
   position: absolute;
-  width: 371px;
-  height: 196px;
+  width: 328px;
+  height: 166px;
   top: 239px;
-  left: 144px;
+  left: 164px;
 }
 
 .xbox .stick {
   position: absolute;
   background: url(https://imgur.com/KsmXhGL.png);
-  background-position: -85px 0;
-  height: 83px;
-  width: 83px;
+  background-position: 166px 0;
+  height: 166px;
+  width: 166px;
+  left: 268px;
+  top: 310px;
 }
 
 .xbox .stick.pressed {
@@ -203,16 +206,16 @@
 }
 
 .xbox .stick.right {
-  top: 113px;
-  left: 288px;
+  top: 108px;
+  left: 357px;
 }
 
 .xbox .dpad {
   position: absolute;
-  width: 110px;
-  height: 111px;
-  top: 345px;
-  left: 223px;
+  width: 113px;
+  height: 206px;
+  top: 144px;
+  left: 125px;
 }
 
 .xbox .face {
@@ -226,11 +229,11 @@
 }
 
 .xbox .face.up {
-  background-position: 34px 0;
-  left: 38px;
-  top: 0px;
-  width: 34px;
-  height: 56px;
+  background-position: 56px 0;
+  left: 52px;
+  top: -15px;
+  width: 56px;
+  height: 92px;
 }
 
 .xbox .face.down {
