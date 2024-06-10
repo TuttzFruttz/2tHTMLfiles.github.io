@@ -18,11 +18,12 @@
 }
 
 .xbox .triggers {
-  width: 446px;
-  height: 121px;
+  width: 446px; /* Keep this as is */
+  height: 121px; /* Keep this as is */
   position: absolute;
   left: 182px;
   top: 0px;
+  /* You might want to remove float from triggers and adjust positioning instead */
 }
 
 .xbox .trigger {
@@ -30,17 +31,26 @@
   height: 81px;
   background: url(https://imgur.com/Jk3JHjg.png);
   opacity: 0;
+  position: absolute; /* Use absolute positioning */
 }
 
 .xbox .trigger.left {
-  float: left;
+  left: 0; /* Position the left trigger at the left edge */
   background-position: 0 0;
 }
 
 .xbox .trigger.right {
-  float: left;
-  left: 382px;
-  transform: rotateY(180deg);
+  left: 10px;
+  background-position: 0 -81px;
+}
+
+/* Adding 265px distance between the triggers */
+.xbox .trigger.left {
+  left: 0;
+}
+
+.xbox .trigger.right {
+  left: calc(183px + 265px); /* Calculate the position for the right trigger */
 }
 
 .xbox .bumper {
@@ -70,12 +80,12 @@
   float: right;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  left: 300px;
+  left: 900px;
 }
 
 .xbox .quadrant {
   position: absolute;
-  background: url(xbox-assets/quadrant.svg);
+  background: url();
   height: 45px;
   width: 45px;
   top: 258px;
